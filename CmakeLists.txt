@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.14)
+project(QuantSys)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+# Add subdirectories
+add_subdirectory(libs/memory_allocator)
+add_subdirectory(libs/async_logger)
+add_subdirectory(libs/config_parser)
+add_subdirectory(libs/metrics_collector)
+
+add_subdirectory(core/fix_gateway)
+add_subdirectory(core/order_manager)
+add_subdirectory(core/matching_engine)
+add_subdirectory(core/strategy_engine)
+

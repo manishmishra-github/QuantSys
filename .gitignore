@@ -1,0 +1,17 @@
+# C++
+*.o
+*.so
+*.a
+*.out
+*.log
+CMakeFiles/
+CMakeCache.txt
+build/
+compile_commands.json
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
