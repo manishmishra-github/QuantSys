@@ -26,6 +26,7 @@ int main()
     allocator.mem_free(my_obj);
     allocator.mem_free(my_obj);
     allocator.mem_free(my_obj);
+    allocator.mem_free(my_obj);
     std::cout << "[PASS] Dummy deallocated successfully\n";
     return 0;
 }
